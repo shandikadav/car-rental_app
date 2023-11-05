@@ -1,0 +1,606 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+APLIKASI CAR RENTAL
+</name>
+</assembly>
+<members>
+<member name="T:APLIKASI_CAR_RENTAL.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:APLIKASI_CAR_RENTAL.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:APLIKASI_CAR_RENTAL.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet.DriverDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet.DriverRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet.DriverRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.DriverTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.TableAdapterManager.UpdateAll(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1.VehicleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1.VehicleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1.VehicleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.VehicleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2.DamageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2.DamageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2.DamageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.DamageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3.RentalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3.RentalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3.RentalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.RentalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.DriverDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.RefundDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.VehicleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.DriverRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.RefundRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.VehicleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.DriverRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.RefundRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4.VehicleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.DriverTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.RefundTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.VehicleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5.RefundDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5.RefundRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5.RefundRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.RefundTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6.DamageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6.RepairDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6.DamageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6.RepairRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6.DamageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6.RepairRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.DamageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.RepairTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7.RepairDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7.RepairRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7.RepairRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.RepairTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_CAR_RENTAL.APP_CAR_RENTALDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
